@@ -1,0 +1,88 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body{
+            background-attachment: fixed;
+            background-size: cover;
+            background-image: url("Ebook.png");
+        }
+
+        div.container{
+            background-color: #264d73
+        }
+        
+        .container {
+            font-family: sans-serif;
+            margin-left: 35%;
+            margin-top: 8%;
+            width: 32%;
+            border: none;
+            padding: 52px;
+            border-radius: 15px;
+            padding-top: 20px;
+        }
+    
+        .form-group1 {
+            text-align: center;
+            margin-bottom: 3px;
+            text-decoration: none;
+            font-family:  Footlight MT Light;
+        }
+
+        .form-group2 {
+            font-size: 14px;
+            text-align: center;
+            margin-bottom: 3px;
+            text-decoration: none;
+        }
+
+        .container hr {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 20px;
+        border: 2px solid black;
+        }
+
+        .form-group label {
+        font-weight: bold
+        }
+
+        .form-group {
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-family:  Footlight MT Light;
+        }
+
+        .form-control {
+        border-radius: 5px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 40px;
+        margin-top: 5px;
+        font-size: 15px;
+        font-family:  Footlight MT Light;
+        }
+
+        .tombol [type=button] {
+        font-family:  Footlight MT Light;
+        background: linear-gradient(#71e3ff 5%, #0059ff 100%);
+        border: 1px solid rgb(57, 93, 212);
+        font-size: 17px;
+        color: white;
+        text-align: center;
+        line-height: 17px;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 5px;
+        padding: 10px 0;
+        outline:none;
+        font-weight: bold;
+        margin-top: 10px;
+        }
+
+        .tombol [type=button]:hover {
+        background: linear-gradient(#005983 5%,#79ebff  100%);
+        }
